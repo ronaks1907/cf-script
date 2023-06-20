@@ -1,0 +1,8 @@
+Resources:
+# Creating S3 Bucket
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: ronakprajapatinfdjf
+      AccessControl: Private
